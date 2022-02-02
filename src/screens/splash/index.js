@@ -32,31 +32,19 @@ export default ({ navigation }) => {
     //TODO:- return event
     return (
         <View style={styles.main_container} >
-            <StatusBar backgroundColor="#fff" barStyle='dark-content' />
+            <StatusBar backgroundColor="#fff" barStyle='light-content' />
             <View style={styles.container}>
                 <Animated.View style={[styles.animated_img_view, { transform: [{ translateY: translationImg }] }]}>
                     <Image source={AssetsImages.demo_app} style={{ height: 180, width: 180, resizeMode: 'contain' }} />
                 </Animated.View>
-                <Animated.View style={[styles.animated_Btn_view, { transform: [{ translateY: translationBtn }] }]}>
+                <Animated.View style={[styles.animated_btn_view, { transform: [{ translateY: translationBtn }] }]}>
                     <CommonBtn
-                        btnSty={{
-                            width: 200,
-                            height: 45,
-                            borderRadius: 20,
-                            backgroundColor: "#BDD63B",
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            marginBottom: CONST.DEVICE_HEIGHT / 2
-                        }}
+                        btnSty={styles.start_btn}
                         onPress={() => {
                             navigation.navigate("AppDrawer");
                         }}
-                        title={"Lets Start"}
-                        txtSty={{
-                            fontSize: 18,
-                            color: '#fff',
-                            fontWeight: '600'
-                        }}
+                        title={"Let's Start"}
+                        txtSty={styles.start_txt}
                     />
                 </Animated.View>
             </View>

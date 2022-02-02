@@ -25,13 +25,28 @@ export default StyleSheet.create({
         alignItems: 'center', 
         justifyContent: 'center', 
     },
-    animated_Btn_view: {
+    animated_btn_view: {
         width: '100%', 
         height: CONST.DEVICE_HEIGHT ,
         borderRadius: CONST.DEVICE_WIDTH / 2,
         alignItems: 'center', 
         justifyContent: 'center', 
         backgroundColor: "#fff", 
+    },
+    start_btn: {
+        width: 200,
+        height: 45,
+        borderRadius: 20,
+        backgroundColor: "#BDD63B",
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: CONST.DEVICE_HEIGHT / 2
+    },
+    start_txt:{
+        fontSize: 18,
+        color: '#fff',
+        fontWeight: '600'
     }
+
 
 });
