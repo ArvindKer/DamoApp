@@ -1,4 +1,4 @@
-# DamoApp
+# DemoApp
 This app is created for the demonstration.
 App contains features like:
 
