@@ -16,4 +16,4 @@ App contains features like:
 
 You can find app demo in below given link:
 
-➢  https://drive.google.com/drive/folders/1tdhl3HOR516u2CYZ-T37hEQnstnlTLnB?usp=sharing
+➢  https://drive.google.com/file/d/1H7Lu51Eu8tEpLzLAdV17NQLZJ5uvXWEt/view?usp=sharing
